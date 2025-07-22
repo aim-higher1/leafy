@@ -28,6 +28,7 @@ services:
       
   leafy-front:
     image: studydocker25/leafy-frontend:f14db6f226617bd959076ae92826e08b324c8b19
+    platform: linux/amd64
     environment:
       - BACKEND_HOST=leafy-backend
     ports:
