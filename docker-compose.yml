@@ -26,7 +26,7 @@ services:
     restart: on-failure
       
   leafy-front:
-    image: studydocker25/leafy-frontend:e891ff2d6a74a33f52b72cb9aaa278628370a3cc
+    image: studydocker25/leafy-frontend:f14db6f226617bd959076ae92826e08b324c8b19
     environment:
       - BACKEND_HOST=leafy-backend
     ports:
