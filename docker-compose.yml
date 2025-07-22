@@ -2,6 +2,7 @@
 services:
   leafy-postgres:
     image: studydocker25/leafy-postgres:fb54d9d8f8cc6623a4168f4a02e4d5700ee03670
+    platform: linux/amd64
     volumes:
       - mydata:/var/lib/postgresql/data
     deploy:
